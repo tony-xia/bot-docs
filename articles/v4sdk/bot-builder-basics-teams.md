@@ -78,7 +78,7 @@ Here is a list of all of the Teams activity handlers called from the `OnInvokeAc
 | CardAction.Invoke               | `OnTeamsCardActionInvokeAsync`       | Teams Card Action Invoke. |
 | fileConsent/invoke              | `OnTeamsFileConsentAcceptAsync`      | Teams File Consent Accept. |
 | fileConsent/invoke              | `OnTeamsFileConsentAsync`            | Teams File Consent. |
-| fileConsent/invoke              | `OnTeamsFileConsentDeclineAsync`     | Teams File Consent. |
+| fileConsent/invoke              | `OnTeamsFileConsentDeclineAsync`     | Teams File Consent Decline. |
 | actionableMessage/executeAction | `OnTeamsO365ConnectorCardActionAsync` | Teams O365 Connector Card Action. |
 | signin/verifyState              | `OnTeamsSigninVerifyStateAsync`      | Teams Sign in Verify State. |
 | task/fetch                      | `OnTeamsTaskModuleFetchAsync`        | Teams Task Module Fetch. |
@@ -121,7 +121,7 @@ Here is a list of all of the Teams activity handlers called from the `onInvokeAc
 | CardAction.Invoke               | `handleTeamsCardActionInvoke`       | Teams Card Action Invoke. |
 | fileConsent/invoke              | `handleTeamsFileConsentAccept`      | Teams File Consent Accept. |
 | fileConsent/invoke              | `handleTeamsFileConsent`            | Teams File Consent. |
-| fileConsent/invoke              | `handleTeamsFileConsentDecline`     | Teams File Consent. |
+| fileConsent/invoke              | `handleTeamsFileConsentDecline`     | Teams File Consent Decline. |
 | actionableMessage/executeAction | `handleTeamsO365ConnectorCardAction` | Teams O365 Connector Card Action. |
 | signin/verifyState              | `handleTeamsSigninVerifyState`      | Teams Sign in Verify State. |
 | task/fetch                      | `handleTeamsTaskModuleFetch`        | Teams Task Module Fetch. |
